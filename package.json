@@ -1,0 +1,17 @@
+{
+  "name": "pablo_abreu_after_30_days",
+  "version": "1.0.0",
+  "description": "dev_test",
+  "main": "a_30_d.js",
+  "scripts": {
+    "tester": "jest",
+    "test-watch": "jest --watchAll",
+    "test": "jest --coverage",
+    "after-30-days": "node src/a_30_d.js"
+  },
+  "author": "Pablo Abreu",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
